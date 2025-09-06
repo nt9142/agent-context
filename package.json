@@ -1,0 +1,45 @@
+{
+  "name": "agent-context",
+  "version": "0.1.0",
+  "description": "Build an LLM agent's working context by symlinking selected folders into a single workspace.",
+  "type": "module",
+  "bin": {
+    "agent-context": "cli.mjs"
+  },
+  "license": "MIT",
+  "engines": { "node": ">=18" },
+  "files": ["cli.mjs", "src/**", "README.md", "LICENSE"],
+  "keywords": [
+    "agent",
+    "llm",
+    "ai",
+    "coding-agent",
+    "context",
+    "workspace",
+    "symlink",
+    "monorepo",
+    "cli",
+    "gemini",
+    "claude",
+    "cursor"
+  ],
+  "dependencies": {
+    "chalk": "^5.6.0",
+    "ink": "^6.2.2",
+    "ink-select-input": "^6.2.0",
+    "ink-spinner": "^5.0.0",
+    "ink-text-input": "^6.0.0",
+    "react": "^19.1.1",
+    "tsx": "^4.20.4"
+  },
+  "devDependencies": {
+    "@types/node": "^22.5.4",
+    "@types/react": "^19.1.12",
+    "typescript": "^5.5.4",
+    "vitest": "^3.2.4"
+  },
+  "scripts": {
+    "test": "vitest run",
+    "test:watch": "vitest"
+  }
+}
