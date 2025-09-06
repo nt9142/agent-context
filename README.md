@@ -36,8 +36,9 @@ Transform scattered project folders into a unified workspace for **AI coding ass
 Modern **AI coding assistants** and **LLM agents** work best when they have clear, organized access to your project files. Instead of juggling multiple directories or losing context between different parts of your codebase, **Agent Context** creates a focused workspace with symlinked folders that maintain your original file structure while providing a unified view.
 
 Perfect for:
+
 - 🤖 **AI pair programming** sessions
-- 🔄 **Multi-repository workflows** 
+- 🔄 **Multi-repository workflows**
 - 📁 **Monorepo navigation**
 - 🎯 **Focused development** sessions
 - 🧠 **Context switching** between projects
@@ -87,15 +88,17 @@ You'll be guided through:
 3. **Workspace Creation**: Automatic symlinking into your chosen workspace directory
 
 #### Auto Mode
+
 Creates a timestamped workspace under `~/coder-work/session-YYYYMMDD-HHMM` - perfect for quick AI coding sessions.
 
-#### Manual Mode  
+#### Manual Mode
+
 Lets you choose a custom target directory for more permanent workspace setups.
 
 ### Keyboard Controls
 
 - **↑/↓**: Navigate through folders
-- **←/→**: Collapse/expand directories  
+- **←/→**: Collapse/expand directories
 - **Space/Enter**: Select/deselect folders
 - **Esc/q**: Exit the application
 
@@ -103,7 +106,7 @@ Lets you choose a custom target directory for more permanent workspace setups.
 
 - **🤖 AI Coding Sessions**: Create focused workspaces for:
   - **Claude Code** - AI pair programming with Anthropic's assistant
-  - **Cursor** - AI-first code editor with inline completions  
+  - **Cursor** - AI-first code editor with inline completions
   - **Windsurf** - Agentic AI coding with Cascade interface
   - **GitHub Copilot** - Microsoft's AI pair programmer
   - **Qwen Coder** - Alibaba's open-source coding model
@@ -119,6 +122,7 @@ Lets you choose a custom target directory for more permanent workspace setups.
 ## Workflow Examples
 
 ### AI Pair Programming Session with Claude Code
+
 ```bash
 # Quick setup for Claude Code session
 npx agent-context
@@ -127,6 +131,7 @@ npx agent-context
 ```
 
 ### Cursor AI-First Development
+
 ```bash
 # Create organized workspace for Cursor
 agent-context
@@ -136,6 +141,7 @@ agent-context
 ```
 
 ### Windsurf Agentic Coding
+
 ```bash
 # Prepare workspace for Windsurf's Cascade AI
 npx agent-context
@@ -144,15 +150,17 @@ npx agent-context
 ```
 
 ### Multi-Repository Feature Work with GitHub Copilot
+
 ```bash
 # Create custom workspace for cross-repo feature
 agent-context
-# Choose manual mode, select ~/workspaces/user-auth-feature  
+# Choose manual mode, select ~/workspaces/user-auth-feature
 # Select folders from multiple repositories
 # Enhanced Copilot suggestions with organized context
 ```
 
 ### Terminal AI Pairing with Aider
+
 ```bash
 # Create workspace for terminal-based AI coding
 agent-context
@@ -178,7 +186,7 @@ This project is licensed under the [MIT License](LICENSE).
 If you find Agent Context helpful:
 
 - ⭐ **Star this repository** on [GitHub](https://github.com/nt9142/agent-context)
-- 🗣 **Share with colleagues** working with AI coding tools  
+- 🗣 **Share with colleagues** working with AI coding tools
 - 💬 **Provide feedback** and feature suggestions
 - 🤝 **Contribute** to make it better for everyone
 
