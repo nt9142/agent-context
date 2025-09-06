@@ -7,9 +7,13 @@
 
 **Build an LLM agent's working context by symlinking selected folders into a single workspace.**
 
-Transform scattered project folders into a unified workspace for **AI coding assistants** and **agents**. Perfect for **Claude Code**, **Cursor**, **Windsurf**, **GitHub Copilot**, **Qwen Coder**, **CodeGPT**, **Tabnine**, **Aider**, **StarCoder**, **CodeT5**, and other **LLM-powered development tools**. Boost productivity by providing agents with focused, organized project context.
+## ⚡ Quick Start
 
-Quick start: `npx agent-context`
+```bash
+npx agent-context
+```
+
+Transform scattered project folders into a unified workspace for **AI coding assistants** and **agents**. Perfect for **Claude Code**, **Cursor**, **Windsurf**, **GitHub Copilot**, **Qwen Coder**, **CodeGPT**, **Tabnine**, **Aider**, **StarCoder**, **CodeT5**, and other **LLM-powered development tools**. Boost productivity by providing agents with focused, organized project context.
 
 ## Table of Contents
 
