@@ -110,7 +110,7 @@ export default function DirectoryBrowser({
     }
 
     // Handle regular character input for filtering
-    if (input && input.length === 1 && /^[a-zA-Z0-9\-_. ]$/.test(input)) {
+    if (input && input.length === 1 && /^[a-zA-Z0-9\-_.]$/.test(input)) {
       setFilter((prev: string) => prev + input);
       return;
     }
