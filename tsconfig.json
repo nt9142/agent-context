@@ -13,9 +13,5 @@
     "noEmit": true,
     "types": ["node", "vitest/globals"]
   },
-  "include": [
-    "src/**/*.ts",
-    "src/**/*.tsx",
-    "cli.mjs"
-  ]
+  "include": ["src/**/*.ts", "src/**/*.tsx", "cli.mjs"]
 }

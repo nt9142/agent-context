@@ -3,7 +3,11 @@
     "node": true,
     "es2024": true
   },
-  "extends": ["eslint:recommended", "plugin:prettier/recommended", "@typescript-eslint/recommended"],
+  "extends": [
+    "eslint:recommended",
+    "plugin:prettier/recommended",
+    "@typescript-eslint/recommended"
+  ],
   "parser": "@typescript-eslint/parser",
   "plugins": ["@typescript-eslint"],
   "parserOptions": {

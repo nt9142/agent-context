@@ -1,8 +1,8 @@
 #!/usr/bin/env node
 import 'tsx';
-import process from "node:process";
+import process from 'node:process';
 
-if (process.argv.includes("--help") || process.argv.includes("-h")) {
+if (process.argv.includes('--help') || process.argv.includes('-h')) {
   console.log(`
 agent-context
 
@@ -17,13 +17,13 @@ Usage:
   process.exit(0);
 }
 
-import React from "react";
-import { render } from "ink";
+import React from 'react';
+import { render } from 'ink';
 
-const allowChoice = process.argv.includes("--choose");
-const forceManual = process.argv.includes("--manual");
+const allowChoice = process.argv.includes('--choose');
+const forceManual = process.argv.includes('--manual');
 
 // Dynamically import after tsx registration so .tsx is recognized in ESM
-const { default: App } = await import("./src/App.tsx");
+const { default: App } = await import('./src/App.tsx');
 
 render(React.createElement(App, { allowChoice, forceManual }));

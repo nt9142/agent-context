@@ -22,6 +22,7 @@ agent-context --help
 ```
 
 ## Notes
+
 - Auto mode creates a temporary workspace under `~/coder-work/session-YYYYMMDD-HHMM`.
 - Manual mode lets you choose a target directory, then select project folders to symlink into it.
 - Navigation: arrows to move, Space/Enter to select, Esc to exit.

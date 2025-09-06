@@ -7,7 +7,9 @@
     "agent-context": "cli.mjs"
   },
   "license": "MIT",
-  "engines": { "node": ">=18" },
+  "engines": {
+    "node": ">=18"
+  },
   "lint-staged": {
     "*.{js,mjs,ts}": [
       "eslint --fix",
@@ -17,7 +19,12 @@
       "prettier --write"
     ]
   },
-  "files": ["cli.mjs", "src/**", "README.md", "LICENSE"],
+  "files": [
+    "cli.mjs",
+    "src/**",
+    "README.md",
+    "LICENSE"
+  ],
   "keywords": [
     "agent",
     "llm",
